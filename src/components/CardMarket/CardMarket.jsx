@@ -23,6 +23,7 @@ export default function CardMarket({
   const navigate = useNavigate();
 
   const handleClick = () => {
+    console.log('hello')
     handleBuyClick(nft)
     Swal.fire({
       position: 'top-end',
